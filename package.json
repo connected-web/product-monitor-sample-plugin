@@ -1,0 +1,24 @@
+{
+  "name": "product-monitor-sample-plugin",
+  "version": "1.0.0",
+  "description": "A sample plugin (template) for product-monitor that adds an endpoint to generate a random string of characters.",
+  "main": "sample-plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/connected-web/product-monitor-sample-plugin.git"
+  },
+  "keywords": [
+    "product-monitor",
+    "nodejs",
+    "plugin"
+  ],
+  "author": "John Beech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connected-web/product-monitor-sample-plugin/issues"
+  },
+  "homepage": "https://github.com/connected-web/product-monitor-sample-plugin#readme"
+}
