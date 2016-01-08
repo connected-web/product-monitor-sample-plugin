@@ -1,6 +1,6 @@
 {
   "name": "product-monitor.plugin.sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sample plugin (template) for product-monitor that adds an endpoint to generate a random string of characters.",
   "main": "sample/plugin.js",
   "scripts": {

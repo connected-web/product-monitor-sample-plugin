@@ -40,3 +40,10 @@ Returns the config applied to the plugin.
 
 ### plugin.setConfig(pluginConfig)
 Changes the config applied to the plugin.
+
+## Change Log
+### 1.0.1
+- Corrected description of `plugin.info()`
+
+### 1.0.0
+- Initial release
