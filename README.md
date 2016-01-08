@@ -9,13 +9,21 @@ npm test
 ```
 
 ## Exposed methods
+### plugin()
+Creates a new instance of the plugin.
+
+```js
+var plugin = require('product-monitor-sample-plugin')();
+```
+
 ### plugin.apply(app)
 Applies the plugin to a product-monitor app.
 
 ### plugin.info()
 Returns the `title`, `description`, and `type` for the plugin:
 
-```{
+```js
+{
     title: 'Sample',
     description: 'Sample plugin',
     type: 'template'
