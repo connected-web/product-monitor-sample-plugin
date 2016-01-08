@@ -13,7 +13,7 @@ npm test
 Creates a new instance of the plugin.
 
 ```js
-var plugin = require('product-monitor-sample-plugin')();
+var plugin = require('product-monitor.plugin.sample')();
 ```
 
 ### plugin.apply(app)
