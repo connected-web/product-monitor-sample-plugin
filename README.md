@@ -20,13 +20,18 @@ var plugin = require('product-monitor.plugin.sample')();
 Applies the plugin to a product-monitor app.
 
 ### plugin.info()
-Returns the `title`, `description`, and `type` for the plugin:
+Returns the `name`, `description`, and `keywords` for the plugin:
 
 ```js
 {
-    title: 'Sample',
-    description: 'Sample plugin',
-    type: 'template'
+    name: 'product-monitor.plugin.sample',
+    description: 'A sample plugin (template) for product-monitor that adds an endpoint to generate a random string of characters.',
+    keywords: [
+      'product-monitor',
+      'nodejs',
+      'plugin',
+      'template'
+    ]
 }
 ```
 

@@ -13,7 +13,8 @@
   "keywords": [
     "product-monitor",
     "nodejs",
-    "plugin"
+    "plugin",
+    "template"
   ],
   "author": "John Beech",
   "license": "ISC",
