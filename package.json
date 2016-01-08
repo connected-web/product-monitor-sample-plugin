@@ -4,7 +4,7 @@
   "description": "A sample plugin (template) for product-monitor that adds an endpoint to generate a random string of characters.",
   "main": "sample/plugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/connected-web/product-monitor-sample-plugin/issues"
   },
-  "homepage": "https://github.com/connected-web/product-monitor-sample-plugin#readme"
+  "homepage": "https://github.com/connected-web/product-monitor-sample-plugin#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
 }
